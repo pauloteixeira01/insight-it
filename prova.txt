@@ -1,0 +1,126 @@
+Prova de conhecimentos de HTML, CSS e Bootstrap.
+
+1. Quantos níveis de cabeçalho HTML (headers) existem?
+
+	Existem 6 níveis.
+	<h1></h1>
+	<h2></h2>
+	<h3></h3>
+	<h4></h4>
+	<h5></h5>
+	<h6></h6>
+	
+2. O que está errado no código HTML abaixo?
+    <p style"font-size:10px;">Copyright <span>2015</span></p>
+
+	Falta o sinal de ‘=’ depois de ‘style’
+	OBS.: Deve-se criar um arquivo ‘.css’ separado e colocar o código ‘css’ nele.
+
+3. Qual elemento em HTML5 representa uma oportunidade de quebra de linha?
+	
+    <wbr>
+
+4. Qual elemento HTML pode ser usado para expressar e mostrar uma anotação de uma pronuncia de 
+    um caractere do leste asiático?
+	
+    A tag <rt>
+
+5. Por que não devemos usar fontes de tamanho fixo?
+	
+    Porque os munitores que acessam as aplicações não tem tamanho fixo. Sendo assim, o tamanho de 
+    uma fonte que ficaria bom em um monitor de um determinado tamanho, não ficará bom em um monitor 
+    de tamanho diferente.
+
+6. Quais fontes estão disponíveis em todas as plataformas?
+
+	Arial...
+
+7. Explique a diferença entre: visibility:hidden and display:none
+
+	“Display: none”  retira o elemento do layout da página. Mas você ainda 	pode manipular ele no DOM.
+
+	“visibility:hidden” deixa de mostrar o elemento, ou seja, ele deixa de ser 	visível na página mas seu 
+    espaço continua ocupado, ou seja, o layout da 	página não é alterado por causa disto.
+
+8. O que são CSS media queries e para que são usadas?
+
+	Uma media query consiste de um media type e pelo menos uma expressão que limita o escopo das folhas de 
+    estilo usando media features, tal como 	largura, altura e cor. Media queries, adicionadas no CSS3, deixam
+    a apresentação do conteúdo adaptado a uma gama especifica de dispositivos não precisando mudar o conteúdo 
+    em si. Em resumo, é usado para responsividade.
+
+9. Dado o HTML abaixo:
+
+    <div id="page">
+    <h1>Heading Title</h1>
+    <h2>Subheading Title</h2>
+    <h2>Subheading Title</h2>
+    <h1>Heading Title</h1>
+    <h2>Subheading Title</h2>
+    <h1>Heading Title</h1>
+    </div>
+
+10. Qual é o comando “at-rule” que permite o use de “encoding” em uma stylesheet
+
+	‘id’ se pega com ‘#’ no ‘css’
+	‘class’ se pega com ‘.’ no ‘css’
+	#page { }
+
+11. Por que usar Bootstrap?
+
+    Porque é um framework de css bem consolidado e fácil de usar.
+
+12. Como fazer para deixar imagens responsivas?
+
+    Colocando o tamanho delas em percentual(%) ao invés de pixels(px)
+
+13. O que são glyphicons?
+
+    O Glyphicons é uma extensa biblioteca de ícones vetoriais de alta qualidade.
+
+14. O que é um Jumbotron em Bootstrap?
+
+    Componente leve e flexível para exibir conteúdo. Um componente leve	e flexível que pode se extender pela 
+    viewport inteira para exibir mensagens de market, em seu site.
+
+15. O que são “media objects” no BootStrap?
+
+	O “media Objects” ajuda a construir componentes complexos e repetitivos, onde alguma mídia é posicionada 
+    ao lado do conteúdo que não envolve essa mídia. Além disso, ele faz isso com apenas duas classes 
+    obrigatórias, graças ao flexbox.
+
+16. O que é React?
+
+	É uma biblioteca baseada em Java Script feita pelo Facebook. Ela pode ser usada para front-end web 
+    através do ReactJS e para front-end mobile através do React-Native.
+
+17. O que é JSX?
+
+	É a sintaxe usada pelo react. É uma mistura de JavaScript e XML.
+
+18. Como o React é diferente do Angular?
+
+	Angular é baseado em Typescript e React é baseado em JavaScript. AngularJS não fornece a adição de 
+    biblioteca JavaScript ao código-fonte, enquanto o React permite adicionar biblioteca JavaScript ao 
+    código-fonte.
+
+19. O que é Redux?
+
+	Redux é uma biblioteca JavaScript de código aberto para gerenciar o estado do aplicativo. É mais comumente 
+    usado com bibliotecas como 	React ou Angular para criar interfaces de usuário.
+
+20. Quais são as vantagens do Redux?
+
+	Fazer com que as mudanças de estado sejam mais previsíveis.
+
+21. Monte um programa que use ReactJS que tenha as seguintes funcionalidades:
+
+    Tela que captura 5 campos: nome, endereço, telefone, e-mail e data de nascimento;
+    Faca validação básica usando Yup
+        • Nome não pode ter números;
+        • Telefone – somente números;
+        • Validar formato de e-mail;
+        • Usa uma data valida: por exemplo não pode existir 30/02/2020
+    Use Material-UI ou Bootstrap;
+    Botão Enviar – não precisa implementar a funcionalidade
+    Enviar o código, que possa ser compilado remotamente;
