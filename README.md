@@ -10,6 +10,6 @@
 1. Download the project.
 2. Open a terminal in the project folder.
 3. Download the dependencies with the command: **npm install** or **yarn**
-3. Run the project with the command: **yarn start**
+3. Run the project with the command: **npm start** or **yarn start**
 
 ![banner](https://github.com/pauloteixeira01/insight-it/blob/main/src/img/banner.png)
