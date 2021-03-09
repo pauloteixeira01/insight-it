@@ -4,7 +4,6 @@ import { userSchema } from './UserValidation';
 import './App.css';
 import { Container, Button, Form, FormGroup, Label, Input, Jumbotron } from 'reactstrap';
 
-
 function App() {
 
   // const [ name, setName ] = useState('');
@@ -33,12 +32,12 @@ function App() {
     return value.replace(/\D/g, '');
   }
   
-
   return (
     <div className="App mt-4">
       <Jumbotron>
         <Container>
-          <Form onSubmit={createUser}>
+          <h1>Insight It</h1>
+          <Form onSubmit={createUser} className="mt-4">
             <FormGroup>
               <Label>Nome</Label>
               <Input type="text" onChange={(e) => {e.target.value = handleName(e.target.value)}} name="name" id="name" placeholder="Digite seu nome" />
